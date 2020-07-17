@@ -1,0 +1,27 @@
+main {
+  padding-top:30px;
+  background-color: $primaryColor;
+  height: 100vh;
+  margin: 0 auto;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    li {
+      margin: 10px;
+      text-align: center;
+      color: white;
+      border: 1px solid white;
+      background: #051329;
+    }
+  }
+  li img {
+    height: $albumSize;
+  }
+}
+
+li:hover {
+  cursor: pointer;
+  filter: grayscale(30%)
+}
